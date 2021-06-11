@@ -5,7 +5,7 @@
     align-content: center;
 }
 .image{
-    background-image: url('/imgs/Admin.jpg');
+    background-image: url('https://amansinghbhogal.github.io/CodingFish/imgs/Admin.jpg');
     background-size: cover;
     height: 279px;
     width: 290px;
