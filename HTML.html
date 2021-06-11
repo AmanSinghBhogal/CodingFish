@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingFish HTML</title>
+
+     <!-- HTML CSS -->
+     <link rel="stylesheet" href="styles/HTML.css">
+
+    <!-- Css Style sheet -->
+    <link rel="stylesheet" href="styles/style_v2.css">
+
+    <!-- prism inclusion -->
+    <script src="js_file/prism.js"></script>
+    <link rel="stylesheet" href="styles/prism.css">
+
+    <!-- Hachi Maru Pop -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600;1,700&family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+    <!-- Yusei Magic -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    <!-- Icons and hamburger -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- Icons using font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    <!-- CodeFish Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+    <!-- HTML REFERENCE Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="Home.html">
+                    <img src="imgs/Logo_v2.png" alt="">
+                </a>
+            </div>
+            <div class="siteName">
+                <a href="Home.html">
+                    CodingFish
+                </a>
+            </div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li>
+                    <a href="Home.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="Index_v-2.html" >
+                        Index
+                    </a>
+                </li>
+                <li>
+                    <a href="About_me.html">
+                        About me
+                    </a>
+                </li>
+                <div class="icon">
+                    <a href="https://www.instagram.com/asb_0002/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/AmanSinghBhogal"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aman-singh-bhogal-002914195"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="page_name">
+            HTML Reference
+        </div>
+        <!-- Index: -->
+        <div class="index">
+            <h3>Index:</h3>
+            <ol class="index_itms">
+                <li><a href="#boiler">Boiler Plate.</a></li>
+                <li> <a href="#p">Paragraphs.</a></li>
+                <li><a href="#img">Image.</a></li>
+                <li><a href="#a">Anchor Tag.</a></li>
+                <li><a href="#list">Lists.</a></li>
+                <li><a href="#table">Table.</a></li>
+                <li><a href="#form">Form Tag.</a></li>
+                <li><a href="#inp">Input Tag.</a></li>
+                <li><a href="#dtlist">Data List Tag.</a></li>
+                <li><a href="#dpbox">Drop Box.</a></li>
+                <li><a href="#txtarea">Text Area.</a></li>
+            </ol>
+        </div>
+        <ol class="ol">
+            <!-- Boiler Plate -->
+            <li id="boiler">
+                <div class="topic">
+            <div class="title"> Boiler Plate</div>   
+            <div class="info">
+                <pre class="language-html"><code>&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+&lthead&gt
+    &ltmeta charset="UTF-8"&gt
+    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt
+    &lttitle&gtDocument&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+    
+&lt/body&gt
+&lt/html&gt</code></pre>
+                    <div class="subtitle">#Explanation of of the Boiler Plate:</div>
+                    <ul>
+                        <li>
+                            <div class="subtitle">Head Tag:</div>
+                            <div>
+                                Head contains all the meta-tags in it which is used to describe the contents of a website. Meta means providing information about information. Therefore, meta tags are used to define the keywords and descriptions on our website. Head also contains the title of the website and all the external files like CSS and JavaScript that we link to it.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="subtitle">&lthtml lang= “en”&gt:</div>
+                            <p>
+                                It is the opening part of the HTML tag that tells us the language of the document is in English.
+                            </p>
+                        </li>
+                        <li>
+                            <div class="subtitle">Title Tag:</div> 
+                            <p >Its the title to the page that is visible in the title bar.</p> 
+                        </li>
+                        <li>
+                            <div class="subtitle">Meta Tag:</div> 
+                            <p>
+                                The Meta Tags are used to define the Meta data in an HTML. They are mainly used in SEO (Search Engine Optimization) techniques which help any particular website to rank better in Google or different search engines. It simply boosts the ranking of a webpage to get more traffic on any website.
+                            </p>
+                            <p>
+                                So let us understand various meta tags: 
+                                <ul>
+                                    <li>
+                                        <pre class="language-html"><code>&ltmeta charset= “UTF-8”&gt</code></pre>
+                                        <p>
+                                            - It simply means that the characters that are used will be of UTF-8. It declares the page’s character encoding. It should contain a standard IANA MIME name for character encodings. Moreover, authors are encouraged to use UTF-8. 
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <pre class="language-html"><code>&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt</code></pre>
+                                        <p>
+                                            - This tag is used to make your website responsive and adjust its width in such a way that it looks good in both PC or mobile. It helps in making the website mobile friendly also.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <pre class="language-html"><code>&ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt</code></pre>
+                                        <p>
+                                            - It helps any particular website to open in the highest compatibility mode available. It is mostly for those who are still using Internet Explorer. Because there are still some people who have not upgraded their system and are still using the older versions.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <pre class="language-html"><code>&ltmeta name= “description” content = “This is a description”&gt</code></pre>
+                                        <p>
+                                            - To add a description, we have to write the above statement and write your own description in the content part.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <pre class="language-html"><code>&ltmeta name= “keywords” content= “html tutorial, css tutorial”&gt</code></pre>
+                                        <p>
+                                            - Keywords are those special words through which a user reach any website. You can add the keywords in the content part of the tag.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="subtitle">Body Tag:</div>
+                            <p class="ul">
+                                - Body contains all the contents of the webpage in it. However, in the beginning, our website may look a little uglier but after including stylesheets it will start looking attractive.
+                            </p>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </li>
+
+            <!--Paragraphs  -->
+            <li id="p">
+                <div class="topic">
+                    <div class="title"> Paragraphs:</div> 
+                    <div class="info">
+                        <pre class="language-html"><code>&ltp&gtsome random texts&lt/p&gt</code></pre>
+                        -Whenever we want to add a paragraph on our website then we can simply use paragraph tag in the above format.
+                    </div>
+                </div>
+            </li>
+
+            <!-- Image Tag -->
+            <li id="img">
+                <div class="topic">
+                    <div class="title">Image Tag:</div>
+                    <div class="info">
+                    <pre class="language-html"><code>&ltimg src="" alt=""&gt</code></pre>
+                    <p>-Eg:</p>
+                    <pre class="language-html"><code>&ltimg src="abc.jpg" alt="Sorry! Image Not Found."&gt</code></pre>
+                    <p>-This tag Used to insert a image in the webpage. In the src part you have to define the image location. The alt is used as an alternative in case the image is not found or any error occurs in loading the image.</p>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Hyperlink tag or Anchor Tag -->
+            <li id="a">
+                <div class="topic">
+                    <div class="title">Anchor Tag (Hyperlink):</div>
+                    <div class="info">
+                        <pre class="language-html"><code>&lta href=""&gt ... &lt/a&gt</code></pre>
+                        <p>-This Tag is Used to insert a hyper link in a webpage. Eg:</p>
+                        <pre class="language-html"><code>&lta href="https://google.com"&gtGo to Google&lt/a&gt</code></pre>
+                    </div>
+                </div>
+            </li>
+
+            <!-- List -->
+            <li id="list">
+                <div class="topic">
+                <div class="title">Lists:</div>
+                <div class="info">
+                    <div class="subtitle">There are mainly two types of Lists:</div>
+                    <ul>
+                        <li><div class="subtitle">Ordered List.</div>
+                            <pre class="language-html"><code>&ltol&gt
+    &ltli&gtThis is the first item of my unordered list&lt/li&gt
+&lt/ol&gt</code></pre>
+                                <p>
+                                    - A ordered list contains Numbered elements. Eg:1,2,3,...
+                                </p>
+                        </li>
+                        <li><div class="subtitle">Unordered List.</div>
+                            <pre class="language-html"><code>&ltul&gt
+    &ltli&gtThis is the first item if my unordered list&lt/li&gt
+&lt/ul&gt</code></pre>
+                                <p>
+                                    - A Unordered list is one with bullets to the elements.
+                                </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </li>
+
+            <!-- Tables -->
+            <li id="table">
+                <div class="topic">
+                <div class="title">Table:</div> 
+                <div class="info">
+                    <pre class="language-html"><code>&lttable&gt
+    &ltthead&gt
+        &lttr&gt
+            &ltth&gtColumn 1&lt/th&gt
+            &ltth&gtColumn 2&lt/th&gt
+            &ltth&gtColumn 3&lt/th&gt
+        &lt/tr&gt       
+    &lt/thead&gt
+    &lttr&gt
+        &lttd&gtRow 1 Entry 1&lt/td&gt
+        &lttd&gtRow 1 Entry 2&lt/td&gt
+        &lttd&gtRow 1 Entry 3&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+        &lttd&gtRow 2 Entry 1&lt/td&gt
+        &lttd&gtRow 2 Entry 2&lt/td&gt
+        &lttd&gtRow 2 Entry 3&lt/td&gt
+    &lt/tr&gt
+&lt/table&gt</code></pre>
+                        - The Above is the Format for Table.
+                    </div>
+                </div>
+            </li>
+
+            <!--Form Tag  -->
+            <li id="form">
+                <div class="topic">
+                <div class="title">Form Tag:</div> 
+                    <div class="info">
+                        <pre class="language-html"><code>&ltform action= “google.com”&gt...&lt/form&gt</code></pre>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Input Tag -->
+            <li id="inp"> 
+                <div class="topic">
+                <div class="title">Input Tag:</div> 
+                <div class="info">
+                    <pre class="language-html"><code>&ltinput type="text" name="" id="" placeholder="" value=""&gt   &lt!--Text Input --&gt</code></pre>
+                    <p >
+                        -There are various types of input available. Some of the Majorly used Input formats and their Syntax are:
+                    </p>
+                    <ul>
+                        <li><div class="subtitle">Email:</div>
+                            <pre class="language-html"><code>&ltinput type="email" name="" id="" placeholder="Email"&gt</code></pre>
+                        </li>
+                        <li><div class="subtitle">Password:</div>
+                            <pre class="language-html"><code>&ltinput type="password" name="" id="" placeholder="Password" value=""&gt</code></pre>
+                        </li>
+                        <li><div class="subtitle">Submit:</div>
+                            <pre class="language-html"><code>&ltinput type="submit" value="Submit" name="" id=""&gt</code></pre>
+                        </li>   
+                        <li><div class="subtitle">Radio:</div>
+                            <pre class="language-html"><code>&ltinput type="radio" name="" id=""&gt</code></pre>
+                            <p>- In radio button input if you want the user to select only one distinct option from the given once you can do that by linking the option radio button together. The way to do so is by giving them same name.<br>Eg:</p>
+                            <pre class="language-html"><code>&ltform action=""&gt
+    &lt!--If you want to ask the user if he/she is an adult or not.--&gt
+    Are you 18+?&ltbr&gt
+    &ltlabel for="yes"&gtYes&lt/label&gt
+    &ltinput type="radio" name="adult" id="yes" value="adult_yes"&gt
+    &ltlabel for="no"&gtNo&lt/label&gt
+    &ltinput type="radio" name="adult" id="no" value="adult_no"&gt    
+&lt/form&gt</code></pre>
+                            </li>
+                            <li><div class="subtitle">Checkbox:</div>
+                                <pre class="language-html"><code>&ltinput type="Checkbox" name="" id=""&gt</code></pre>
+                            </li>
+                            <li><div class="subtitle">Color:</div>
+                                <pre class="language-html"><code>&ltinput type="range" name="" id=""&gt</code></pre>
+                            </li>
+                            <li><div class="subtitle">Button:</div>
+                                <pre class="language-html"><code>&ltinput type="button" value="" placeholder="Press Me" id="" name=""&gt</code></pre>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            
+            <!-- Datalist -->
+            <li id="dtlist">
+                <div class="topic">
+                <div class="title">Data List Tag:</div>
+                    <div class="info">
+                        <p>-In a Datalist we have the user to choose in a dropdown from a number of different options, but we want to very quickly filter down or autocomplete based on those options. For Example you want to take an input from the user which has some obvious answers, then you can help the user by giving autocompletion; the way you can do this is:</p>
+                        <pre class="language-html"><code>&ltform&gt
+    &ltlabel for="country"&gtEnter your Country:&lt/label&gt
+    &ltinput name="country" id="country" list="co" placeholder="Enter Your Country"&gt
+    &ltdatalist id="co"&gt
+        &ltoption value="Afghanistan"&gt&lt/option&gt        
+        &ltoption value="Albania"&gt&lt/option&gt
+        &ltoption value="Algeria"&gt&lt/option&gt
+        &ltoption value="Australia"&gt&lt/option&gt
+        &ltoption value="India"&gt&lt/option&gt
+        &ltoption value="Indonesia"&gt&lt/option&gt
+        &ltoption value="Iran"&gt&lt/option&gt
+        &ltoption value="Ukraine"&gt&lt/option&gt
+        &ltoption value="Union of Soviet Socialist Republics*"&gt&lt/option&gt
+        &ltoption value="United Arab Emirates, The"&gt&lt/option&gt
+        &ltoption value="United Kingdom, The"&gt&lt/option&gt
+    &lt/datalist&gt
+&lt/form&gt</code></pre>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Drop Box -->
+            <li id="dpbox">
+                <div class="topic">
+                <div class="title">Drop Box:</div>
+                    <div class="info">
+                        <pre class="language-html"><code>&ltlabel for="drop"&gt...&lt/label&gt
+&ltselect name="dropbox" id="drop"&gt
+    &ltoption value="..."&gt...&lt/option&gt
+    &ltoption value="..."&gt...&lt/option&gt
+    &ltoption value="..."&gt...&lt/option&gt
+&lt/select&gt</code></pre>
+                    </div>        
+                </div>
+            </li>
+
+            <!-- Text Area -->
+            <li id="txtarea">
+                <div class="topic">
+                <div class="title">Text Area:</div> 
+                    <div class="info">
+                        <pre class="language-html"><code>&lttextarea name="" id="" cols="30" rows="10" placeholder="Enter Text Here."&gt&lt/textarea&gt</code></pre>
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </div>
+    <footer class="f_content">
+        <div>
+         <p>Copyright &copy; <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> CodingFish Aman Singh Bhogal</p>
+        </div>
+     </footer>
+     <script src="js_file/app.js"></script>
+</body>
+</html>

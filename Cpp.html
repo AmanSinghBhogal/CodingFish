@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingFish C++</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles/style_v2.css">
+
+    <!-- CPP CSS -->
+    <link rel="stylesheet" href="styles/CPP.css">
+
+    <!-- HTML PAGE CSS -->
+    <link rel="stylesheet" href="styles/HTML.css">
+    <!-- Hachi Maru Pop -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600;1,700&family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+    <!-- Yusei Magic -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    <!-- Icons and hamburger -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- Icons using font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    <!-- Welcome Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!-- CodeFish Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+    <!-- prism inclusion -->
+    <script src="js_file/prism.js"></script>
+    <link rel="stylesheet" href="styles/prism.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="Home.html">
+                    <img src="imgs/Logo_v2.png" alt="">
+                </a>
+            </div>
+            <div class="siteName">
+                <a href="Home.html">
+                    CodingFish
+                </a>
+            </div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li>
+                    <a href="Home.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="Index_v-2.html" >
+                        Index
+                    </a>
+                </li>
+                <li>
+                    <a href="About_me.html">
+                        About me
+                    </a>
+                </li>
+                <div class="icon">
+                    <a href="https://www.instagram.com/asb_0002/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/AmanSinghBhogal"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aman-singh-bhogal-002914195"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="page_name">
+            C/C++ Reference
+        </div>
+        <div class="index">
+            <h3>Topics Available: </h3>
+            <ol class="index_itms">
+                <li><a href="#a">Data Types.</a></li>
+                <li><a href="#b">Variables.</a></li>
+                <li><a href="#c">Header Files.</a></li>
+                <li><a href="#d">Input/Output.</a></li>
+                <li><a href="#e">Operators.</a></li>
+                <li><a href="#f">IF-ELSE Statements.</a></li>
+                <li><a href="#g">Switch Statement.</a></li>
+                <li><a href="#h">For Loop.</a></li>
+                <li><a href="#i">While Loop.</a></li>
+                <li><a href="#j">Do-While Loop.</a></li>
+                <li><a href="#k">Break and Continue Statements.</a></li>
+                <li><a href="#l">goto and exit() Statements.</a></li>
+                <li><a href="#m">Arrays.</a></li>
+                <li><a href="#n">Functions.</a></li>
+                <li><a href="#o">Formal and Actual Parameters.</a></li>
+                <li><a href="#p">Call by Value and Call by Reference Methods.</a></li>
+                <li><a href="#q">Inline Functions.</a></li>
+                <li><a href="#r">Recursive Functions.</a></li>
+                <li><a href="#s">Structures.</a></li>
+                <li><a href="#t">Macro.</a></li>
+                <li><a href="#u">Const.</a></li>
+            </ol>
+        </div>
+        <ol class="ol">
+            <!-- Data Types. -->
+            <li id="a">
+                <div class="topic">
+                    <div class="title">Data Types:</div>
+                    <div class="info">
+                        <p>- Data type is a term that is used to show the kind of data value or the type of data that is expected to be handled.</p>
+                        <p>C/C++ supports three types of data types:</p>
+                            <ol class="sublist">
+                                <li>Built-in Data types.</li>
+                                <li>Derived Data types.</li>
+                                <li>User-defined Data types.</li>
+                            </ol>
+                            <ol class="subliscont">
+                                <li>
+                                    <div class="subtitle">Built-in Data type:</div>
+                                    <div class="info">
+                                        <p>These are also known as fundamental data types. These are defined inside the compiler and are not composed of any other data type.</p>
+                                        <p>C/C++ Support the Following Fundamental Data types:</p>
+                                            <ul>
+                                                <li>int</li>
+                                                <li>float</li>
+                                                <li>char</li>
+                                                <li>double</li>
+                                                <li>long int</li>
+                                                <li>boolean</li>
+                                                <li>void</li>
+                                                <li>string//Note: only C++ supports string data type.</li>
+                                            </ul>
+                                    </div>  
+                                </li>
+                                <li>
+                                    <div class="subtitle">Derived Data Types:</div>
+                                    <div class="info">
+                                        <p>These are the Data types that are composed of fundamental data types.</p>
+                                        <p>Eg: Array, Pointers and Reference.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="subtitle">User-defined Data Types:</div>
+                                    <div class="info">
+                                        <p>These are the data types that are defined by the user.</p>
+                                        <p>Eg: Structures, Union, Class in C++.</p>
+                                    </div>
+                                </li>
+                            </ol>
+                    </div>
+                </div>
+            </li>
+            <!-- Variables -->
+            <li id="b">
+                <div class="topic">
+                    <div class="title">Variables:</div>
+                    <div class="info">
+                        <p>- Variable is a namespace to hold a value to perform operations.
+                            <br>
+                            <br>
+                            - Variables can be initialized in three ways:
+                            <pre class="language-cpp"><code>int a;              //Uninitialized variable.
+int a = 10;         //Initialized variable.
+int a = 10*7;       //Dynamically Initialized variable.</code></pre>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- Header Files -->
+            <li id="c">
+                <div class="topic">
+                    <div class="title">Header Files:</div>
+                    <div class="info">
+                        <p>- Header Files are special pre-defined file in C/C++, for some special purpose. The '#' Symbol in the Header File declaration is called <strong>preprocessor directive.</strong> It indicates that the specified header files in the program are included before compilation.
+                        <br><br>
+                        - Syntax:
+                        <pre class="language-cpp"><code>//Some Commonly used Header Files:
+'#'include&ltiostream&gt          //for C++.
+'#'include&ltstdio.h&gt           // for C.</code></pre>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- Input/ Output -->
+            <li id="d">
+                <div class="topic">
+                    <div class="title">Input/Output: </div>
+                    <div class="info">
+                        <p>
+                            - Input and Output can be managed by using <strong>printf()</strong> and <strong>scanf()</strong> in both the languages, however C++ also allows the use of <strong>cin>></strong> and <strong>cout<<</strong> for this purpose. Traditionally, <strong>scanf()</strong> and <strong>printf()</strong> are slightly faster than <strong>cin>></strong> and <strong>cout<<</strong>. However, it does not makes much of a difference. <br><br>
+                            - Syntax for C and C++:
+                            <pre class="language-cpp"><code>'#'include&ltstdio.h&gt
+void main()
+{
+    printf("Hello World!");
+    int a;
+    printf("Enter a Number: ");
+    scanf("%d",&a);
+    printf("Entered Number is: %d\n",a);
+}</code></pre>
+                            <br>
+                            - Syntax for C++:
+                            <pre class="language-cpp"><code>'#'include&ltiostream&gt
+using namespace std;
+int main()
+{
+    cout&lt&lt"Hello World!";
+    int a;
+    cout&lt&lt"Enter a Number: ";
+    cin&gt&gta;
+    cout&lt&lt"Entered Number is:"&lt&lta;
+    return 0;
+}</code></pre>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- Operators -->
+            <li id="e">
+                <div class="topic">
+                    <div class="title">Operators:</div>
+                    <div class="info">
+                        <p>
+                            - Operators are sign that trigger some computation or action when applied to variables and other objects in C/C++.<br><br>
+                            <div class="subtitle">Operators available in C/C++ are:</div>
+                        </p>
+                        <ul>
+                            <li>
+                                <div class="subtitle">Arithmetic Operator:</div>
+                                <div class="info">
+                                    <p>- They are used to perform Arithmetic calculations like addition, subtraction, division, modulus.</p>
+                                    <p>Eg: + , - , / , * , %</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="subtitle">Relational Operators:</div>
+                                <div class="info">
+                                    <p>- They are used to check the relation between two operands.</p>
+                                    <p>Eg: > , < , >= , <= , == , !=</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="subtitle">Logical Operators:</div>
+                                <div class="info">
+                                    <p>- They are used for logic.</p>
+                                    <p>Eg: && , || , !</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="subtitle">Increment and Decrement: </div>
+                                <div class="info">
+                                    <pre class="language-cpp"><code>int a=5;
+cout&lt&lta++;          //prints 5. Since its post increment.
+cout&lt&lta;            //prints 6.
+cout&lt&lt++a;          //prints 7. Since its pre increment.
+cout&lt&lta--;          //prints 7. Since its post decrement.
+cout&lt&lt--a;          //prints 5. Since its pre decrement.</code></pre>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="subtitle">Conditional Operator:</div>
+                                <div class="info">
+                                    <p>- It is an alternative of if condition and is used to perform an action based on some condition.</p>
+                                    <p>- Syntax:</p>
+                                    <pre class="language-cpp"><code>#include&ltstdio.h&gt
+void main()
+{
+    int a=1;
+    a==1? printf("Yes"): printf("No.");         //Syntax. Its prints Yes as output.
+}</code></pre>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <!-- If-else statement -->
+            <li id="f">
+                <div class="topic">
+                    <div class="title">IF-ELSE Statements:</div>
+                    <div class="info">
+                        <p>
+                            - The <strong>if</strong> statement is the most extensively used conditional statement.
+                            <br>
+                            - Syntax:
+                        </p>
+                        <pre class="language-cpp"><code>if(condition)
+{
+    ...         //statements to execute if statement is true.
+}</code></pre>
+                        <div class="subtitle">Note:</div>
+                        <div class="info">
+                            <p>
+                                - A logical statement always evaluate to true/false <br>
+                                - Any value in C/C++ other than zero (positive/negative) is considered to be true, whereas a zero(0) is considered to be false. <br>
+                                - If there exists only one line of program statement under if() scope then we may omit curly braces{} .
+                                - If statement can stand alone, a else statement is not compulsory. But for every else statement a if statement is compulsory.
+                            </p>
+                        </div>
+                        <div class="subtitle">- IF-ELSE Syntax:</div>
+                        <div class="info">
+                            <pre class="language-cpp"><code>if(condition)
+{
+    ...         //Code to Execute if the condition is true.
+}
+else
+{
+    ...         //Code to Execute if the condition is false.
+}</code></pre>
+                        </div>
+                        <div class="subtitle">- ELSE-IF Syntax:</div>
+                        <div class="info">
+                            <pre class="language-cpp"><code>if(condition)
+{
+    ...         //code if true.
+}
+else if(condition)
+{
+...             //code if second condition is true.
+}
+else
+{
+    ...         //code if non of the conditions were true.
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Switch Statement -->
+            <li id="g">
+                <div class="topic">
+                    <div class="title">Switch Statement:</div>
+                    <div class="info">
+                        <p>- The Switch Statement provides an alternative for the if-else-if construct. It is a multi-way branching statement.</p>
+                        <p>- Syntax:</p>
+                        <pre class="language-cpp"><code>switch(expression)
+{
+    case val_1: 
+        ...             //Statement block 1 if expression == val_1.
+        break;
+    case val_2:
+        ...             //Statement block 1 if expression == val_2.
+        break;
+    case val_n:
+        ...             //Statement block 1 if expression == val_n.
+        break;
+    default:
+        ...             //Statement block if non of the condition is matched.
+        break;
+}</code></pre>
+                        <div class="subtitle">Note:</div>
+                        <div class="info">
+                            <p>- Every case needs to have a break statement because when it is encountered, the control jumps to the line of code following the switch statement, i.e. outside the body of switch statement. If a case statement does not include a break statement, then the control continues right on the next case statement until either a break is encountered or end of switch is reached. This situation is called <strong>fall through.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- For Loop -->
+            <li id="h">
+                <div class="topic">
+                    <div class="title">For Loop:</div>
+                    <div class="info">
+                        <p>- The For loop is used when we have prior knowledge of how many times the particular group of statements is to be executed.</p>
+                        <p>- This loop is called an <strong>entry control loop</strong> because condition is checked before entering into the scope of the loop.</p>
+                        <pre class="language-cpp"><code>//Syntax.
+for(expression 1; expression 2; expression 3)
+{
+    statement blocks;
+}
+
+/*
+expression 1 is the initialization part.
+expression 2 is the test expression or condition.
+expression 3 is update or increment/decrement expression.
+*/</code></pre>
+                    </div>
+                </div>
+            </li>
+            <!-- while loop -->
+            <li id="i">
+                <div class="topic">
+                    <div class="title">While Loop:</div>
+                    <div class="info">
+                        <p>- A while Loop tests for its ending condition before executing the statements enclosed in the loop body even the first time.</p>
+                        <p>- It is also an <strong>entry controlled loop.</strong></p>
+                        <pre class="language-cpp"><code>//Syntax.
+while(condition)                //condition or terminating condition.
+{
+    statement block;
+}</code></pre>
+                        <div class="subtitle">Note:</div>
+                        <div class="info">
+                            <p>- The while loop can accept expression and not just condition, the following are all legal expression:</p>
+                            <div class="info">
+                                <ul>
+                                    <li>while(x= x-1)</li>
+                                    <li>while(n--)</li>
+                                    <li>while(count -= i)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- do-while Loop -->
+            <li id="j">
+                <div class="topic">
+                    <div class="title">Do-While Loop:</div>
+                    <div class="info">
+                        <p>- The do-while loop allows its body to be executed one or more times. A do-while loop executes atleast once.</p>
+                        <p>- The body of the do statement continues to execute as long as the result of the condition in the while statement remains true.</p>
+                        <p>- The do-while loop is also called <strong>exit controlled loop.</strong></p>
+                        <pre class="language-cpp"><code>//Syntax:
+do{
+    statement block;
+    ...
+}while(condition);</code></pre>
+                    </div>
+                </div>
+            </li>
+            <!-- Break and Continue Statements -->
+            <li id="k">
+                <div class="topic">
+                    <div class="title">Break and Continue Statements:</div>
+                    <div class="info">
+                        <div class="subtitle">Break Statement:</div>
+                        <div class="info">
+                            <p>- The break statement ends execution of the nearest enclosing loop or conditional statement in which it appears.</p>
+                            <p>- Control passes to the statement following the ended statement, if any.</p>
+                            <pre class="language-cpp"><code>//Syntax:
+break;</code></pre>
+                        </div>
+                        <div class="subtitle">Continue Statement:</div>
+                        <div class="info">
+                            <p>- The continue statement cause the program to skip the rest of the loop in the current iteration, as if the end of the statement block has been reached, causing it to jump to the start of the following iteration.</p>
+                            <p>- It does not execute the statements, which are after continue in the block of statements and transfer the control to the new iteration in the loop.</p>
+                            <pre class="language-cpp"><code>//Syntax:
+continue;</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- goto and exit statements -->
+            <li id="l">
+                <div class="topic">
+                    <div class="title">goto and exit() Statements:</div>
+                    <div class="info">
+                        <div class="subtitle">goto Statement:</div>
+                        <div class="info">
+                            <p>- The goto statement unconditionally transfer control to the statement labeled with the specified identifier.</p>
+                            <p>- The labeled statement designated by identifier must be in the current function.</p>
+                            <pre class="language-cpp"><code>//Syntax:
+goto identifier_name;
+...
+identifier_name:
+    ...     //statement to execute;</code></pre>
+                        </div>
+                        <div class="subtitle">exit() Statement:</div>
+                        <div class="info">
+                            <p>- exit() is an inbuilt function and is used to terminate the execution of the program at any point at any stage.</p>
+                            <p>- In C this function is included inside <strong>&ltprocess.h&gt header file.</strong></p>
+                            <pre class="language-cpp"><code>//Syntax:
+exit(value);
+
+/*
+Note: 
+    - Here, value is an integer variable or value, depending on the following:
+        -- Using exit(1); returns a value of 1 to the system indicating that an error must have occured. This process is often used for error trapping.
+        -- Using exit(0); exits a program without any error message, but other codes indicate that the system can handle the error messages.
+*/</code></pre>
+                        </div>
+                        <div class="subtitle">Eg program illustrating goto and exit() statements:</div>
+                        <div class="info">
+                            <pre class="language-cpp"><code>#include&ltiostream&gt
+using namespace std;
+int main()
+{
+    cout&lt&lt"Program Begins.\n";
+    int a=1;
+    if(a==1)
+        goto yo;
+    cout&lt&lt"Hello world.\n";
+    yo:
+        cout&lt&lt"Goto statement worked!\n";
+    if(a==1)
+        exit(0);
+    cout&lt&lt"exit didn't worked.";
+    return 0;
+}
+
+/*
+Output:
+Program Begins.
+Goto statement worked!
+*/</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Array -->
+            <li id="m">
+                <div class="topic">
+                    <div class="title">Arrays:</div>
+                    <div class="info">
+                        <p>- An Array is a collection of the same type of variables that are referred by a common name, which are stored in memory sequentially.</p>
+                        <p>- Therefore, an integer array holds integers, a character array holds characters.</p>
+                        <div class="subtitle">There are two types of Arrays:</div>
+                        <div class="info">
+                                <ul>
+                                    <li><div class="subtitle">One- Dimensional Array.</div></li>
+                                    <li><div class="subtitle">Two- Dimensional Array.</div></li>
+                                </ul>
+                        </div>
+                        <div class="subtitle">One-Dimensional Array:</div>
+                        <div class="info">
+                            <p>- An Array is a continuous memory location holding similar type of data in a single row or single column is called one-dimensional array.</p>
+                            <pre class="language-cpp"><code>/*
+Syntax:
+    data_type array_name[ array_size ];
+*/
+
+//eg:
+    int arr[10];
+
+//Valid Syntaxes for initializing one-dimensional array are:
+    int arr[5] = {1,2,3,4,5};
+    int arr[] = {1,2,3,4,5};
+    int arr[5];</code></pre>
+                        </div>
+                        <div class="subtitle">Two-Dimensional Array:</div>
+                        <div class="info">
+                            <p>- A two-dimensional array is a continuous memory location holding similar type of data arranged in row and column format like matrix structure.</p>
+                            <pre class="language-cpp"><code>/*
+Syntax:
+    data_type  array_name[no_of_rows][no_of_columns];
+*/
+
+//eg:
+    int arr[5][5];
+
+//legal Syntax for 2D Arrays:
+    int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+    int arr[3][3] = {1,2,3,4,5,6,7,8,9};
+    int arr[][3] = {1,2,3,4,5,6,7,8,9};
+//Note: Number of Columns is compulsory to be declared.</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Function -->
+            <li id="n">
+                <div class="topic">
+                    <div class="title">Functions:</div>
+                    <div class="info">
+                        <p>- A Function is a named unit of a group of executable program statements, this unit can be invoked from other part of the program as an when required.</p>
+                        <p>- There are mainly two types of Functions:</p>
+                        <div class="info">
+                            <ul>
+                                <li>Library Functions.</li>
+                                <li>User Defined Functions.</li>
+                            </ul>
+                        </div>
+                        <div class="subtitle">Library Functions:</div>
+                        <div class="info">
+                            <p>- Library Functions are pre-defined functions in programming system.</p>
+                            <p>- These are also known as <strong>in-built functions.</strong></p>
+                            <p>- Eg: printf(), scanf(), cin, cout, etc.</p>
+                        </div>
+                        <div class="subtitle">User Defined Functions:</div>
+                        <div class="info">
+                            <p>- These are functions that are defined by the programmer as per the requirement.</p>
+                            <p>- There are three main parts of a User-Defined Function, they are:</p>
+                            <div class="info">
+                                <ol>
+                                    <li>
+                                        <div class="subtitle">Function Prototype:</div>
+                                        <div class="info">
+                                            <p>- It is the declaration of the function that tells the program about the type of value returned by the function, number and type of each argument taken by the function.</p>
+                                            <p>- Function Prototype is exactly same as the function definition header except its body.</p>
+                                            <p>- Note: It is not compulsory unless and until the function definition is above the main() function.</p>
+                                            <pre class="language-cpp"><code>//Syntax:
+    return_type function_name( arrgument_data_type arrgument_name);</code></pre>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="subtitle">Function Definition:</div>
+                                        <div class="info">
+                                            <p>- It describes the action to be performed by the function.</p>
+                                            <p>- Main difference between function definition and function Prototype is that a function Prototype has a semicolon in the end of its header while a function definition does not.</p>
+                                            <pre class="language-cpp"><code>//Syntax:
+return_type func_nm( d_t var_nm_1, d_t var_nm_2 )
+{
+    ...         //Body of the Function.
+}</code></pre>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="subtitle">Function Call:</div>
+                                        <div class="info">
+                                            <p>- It is used to access function that is defined by the programmer.</p>
+                                            <pre class="language-cpp"><code>//Syntax:
+    func_nm(parmeters);</code></pre>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Formal and Actual Parameters. -->
+            <li id="o">
+                <div class="topic">
+                    <div class="title">Formal and Actual Parameter:</div>
+                    <div class="info">
+                        <div class="subtitle">Formal Parameter:</div>
+                        <div class="info">
+                            <p>- The Parameters defined inside a function definition are called <strong>Formal Parameters.</strong> These are the names used inside a function, which are also referred as its arguments.</p>
+                            <pre class="language-cpp"><code>//eg:
+int sum(int x, int y)
+{
+    return (x+y);
+}
+
+/*
+    Here, x and y are Formal parameters and they tell the compiler to accept two integer values at the time of function call.
+*/</code></pre>
+                        </div>
+                        <div class="subtitle">Actual Parameter:</div>
+                        <div class="info">
+                            <p>- The Parameters that appear in the function call statement are called <strong>Actual Parameters.</strong> They may be an constant values, variables or a complex expression.</p>
+                            <p>- When a function uses call by reference method, then the Formal Parameter becomes a reference to the Actual Parameter. In Such case any changes that are made to the Formal Parameter are reflected in the Actual Parameters.</p>
+                            <pre class="language-cpp"><code>//eg: the function call statement of above sum function looks like;
+int main()
+{
+    int a=5,b=6;
+    cout&lt&ltsum(a,b)&lt&ltendl;        //Here a and b are Actual Parameters.
+    cout&lt&ltsum(8,9)&lt&ltendl;        //Here 8 and 9 are the Actual Parameters.
+    cout&lt&ltsum(8-4,9/3)&lt&ltendl;        //Here 8-4 and 9/3 are the Actual Parameters.
+    return 0;
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Call by Value and Call by Reference Methods. -->
+            <li id="p">
+                <div class="topic">
+                    <div class="title">Call by Value and Call by Reference Methods:</div>
+                    <div class="info">
+                        <div class="subtitle">Call By Value Method:</div>
+                        <div class="info">
+                            <p>- The Call by Value Method copies the value of the actual parameter into the formal parameter, i.e, the function creates its own copy of argument values and then uses them.</p>
+                            <p>- If any changes are done on formal parameters, it will not affect the actual parameters.</p>
+                            <pre class="language-cpp"><code>//Illustration code:
+#include&ltiostream&gt
+using namespace std;
+int square(int x)            //Here, x is formal parameter.
+{
+    x*=x;
+    return x;
+}
+int main()
+{
+    int a=5;
+    int sq= square(a);      //Call by Value Method. where a is actual parameter.
+}
+/*
+    Note:
+        -&gt Here the value of a remains unchanged.
+        -&gt Also, the value of a is copied to x.
+*/</code></pre>
+                        </div>
+                        <div class="subtitle">Call By Reference Method:</div>
+                        <div class="info">
+                            <p>- In this method, no separate copy is created for the formal parameter, i.e, formal parameters shares the same location of actual parameters.</p>
+                            <p><strong>- Hence, any change made to the formal parameter is automatically reflected back to the actual parameter.</strong></p>
+                            <pre class="language-cpp"><code>//Illustration Code:
+#include&ltiostream&gt
+using namespace std;
+void square(int *x)          //Here x is Formal parameter and will point to the location of actual parameter.
+{
+    (*x) *= (*x);
+}
+int main()
+{
+    int a=5;
+    square(&a);             //Actual parameter's location is passed to the function.
+    cout&lt&lta&lt&ltendl;          //This line will print 25 since a's value has got changed.
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Inline Functions -->
+            <li id="q">
+                <div class="topic">
+                    <div class="title">Inline Functions:</div>
+                    <div class="info">
+                        <p>- In Inline functions, the compiler replaces the function call statement with the function code itself. This process is called <strong>"Expansion"</strong> and then compiles the entire code.</p>
+                        <p>- Thus, the compiler does not have to jump to another location to execute the function.</p>
+                        <p>- Inline functions are designed to speed up the programs.</p>
+                        <p>- Coding of normal function and Inline function is similar except that in Inline function the function definition starts with the keyword inline.</p>
+                        <div class="subtitle">Note:</div>
+                        <div class="info">
+                            <p>- The Difference between normal and inline function is that both have different compilation process.</p>
+                            <p>- An inline function definition should be placed above all the functions that call them.</p>
+                            <p>- The functions should be inlined only when they are small.</p>
+                            <p>- There is no point inlining a large function as there would be heavy <strong>memory penalty.</strong></p>
+                            <p>- <strong>Memory Penalty:</strong> If 10 times an inline function is called then there will be 10 copies of the function inlined into the code.</p>
+                        </div>
+                        <br>
+                        <div class="subtitle">Inline Function does not work in the following conditions:</div>
+                        <div class="info">
+                            <p>- For functions that return a value and are having a loop or a switch statement or a goto statement.</p>
+                            <p>- For functions not returning value, but its return value exists.</p>
+                            <p>- If function contains static variable.</p>
+                            <p>- If the function is recursive.</p>
+                        </div>
+                        <pre class="language-cpp"><code>//Illustration Program:
+#include&ltiostream&gt
+using namespace std;
+inline void max(int a,int b)            //Notice the keyword inline in the header of the definition.
+{
+    cout&lt&lt(a&gtb?a:b);
+}
+int main()
+{
+    int x,y;
+    cin&gt&gtx&gt&gty;
+    max(x,y);                           //prints larger number out of x and y.
+}
+/*
+    Note:
+        -&gt Here, max() is an inline function so it would not be called in main() during execution, rather its code would be inserted into main() and then compiled.
+*/</code></pre>
+                    </div>
+                </div>
+            </li>
+            <!-- Recursive Function -->
+            <li id="r">
+                <div class="topic">
+                    <div class="title">Recursive Function:</div>
+                    <div class="info">
+                        <p>- A function that invoke itself in its own body is known as a <strong>Recursive Function.</strong></p>
+                        <p>- A recursive function should always contain a terminating condition.</p>
+                        <pre class="language-cpp"><code>//Eg:
+int print(int n)
+{
+    if(n==1)
+    {
+        cout&lt&lt1&lt&ltendl;
+        return 0;
+    }
+    else
+    {
+        cout&lt&ltn&lt&ltendl;
+        return print(n-1);
+    }
+}
+/*
+    -&gt The Above function will print N numbers in decreasing order starting from n to 1.
+*/</code></pre>
+                    </div>
+                </div>
+            </li>
+            <!-- Structures -->
+            <li id="s">
+                <div class="topic">
+                    <div class="title">Structures:</div>
+                    <div class="info">
+                        <p>- A Structure is a <strong>Heterogenous Data type.</strong> It is a collection of variables of different data types under one name.</p>
+                        <pre class="language-cpp"><code>//General Structure Format:
+
+//Syntax 1:
+struct structure_name{
+    &ltdata-type&gt member1;
+    &ltdata-type&gt member2;
+    - - - - - - - - - - -
+    - - - - - - - - - - -
+    &ltdata-type&gtmember_n;
+};
+
+//Example of Syntax 1 :
+struct student{
+    int rollno;
+    char nm[10];
+};
+
+//For this structure we can declare structure variable as follows:
+    struct student s1,s2,s3,s4,s5;
+
+//Syntax 2.
+
+struct structure_name
+{
+    &ltdata-type&gt member1;
+    &ltdata-type&gt member2;
+    - - - - - - - - - - -
+    - - - - - - - - - - -
+    &ltdata-type&gtmember_n;
+}struct_var_list;
+
+/*
+    -&gt Above syntax shows, structure definition with structure variable declaration.
+    -&gt Struct_var_list is list of structure variables.
+*/
+
+//Example of Syntax 2 :
+
+    struct student
+    {
+        int rollno;
+        char nm[10];
+    }s1,s2,s3,s4,s5;
+                        </code></pre>
+                    </div>
+                </div>
+            </li>
+            <!-- Macro -->
+            <li id="t">
+                <div class="topic">
+                    <div class="title">Macro:</div>
+                    <div class="info">
+                        <p>- A Macro refers, to a <strong>#define</strong> defination that is used to define words to enhance readibility and understnadability. Before compilation the preprocessor replaces every occurance of macro as per the defination.</p>
+                        <pre class="language-cpp"><code>//Eg:
+    #define ll long long int
+
+//The above line will replace all ll by long long int within the program</code></pre>
+                    </div>
+                </div>
+            </li>
+            <!-- Const -->
+            <li id="u">
+                <div class="topic">
+                    <div class="title">Const:</div>
+                    <div class="info">
+                        <p>- A const is used over a variable to make its value a constant and thus its value cannot be changed or modified during the program run.</p>
+                        <div class="subtitle">Difference between macro and a const:</div>
+                        <div class="info">
+                            <p>- Both macro and const define constants, however #define can only define simple constants, while const can define almost any type of C/C++ constant, including things like structure classes.</p> 
+                            <p>- A macro is preprocessor directive and is text-replace during compilation whereas a const is type identifier having constant value.</p>
+                            <p>- A const object is subjected to the scope rules for variable whereas a #define is not.</p>
+                            <p>- The compiler does not type-check a macro whereas a const is definitely type-checked.</p>
+                        </div>
+                        <pre class="language-cpp"><code>//Syntax Eg:
+    const int a=50;
+
+// Now the value of variable 'a' is a constant and cannot be modified anywhere in the program. Its value will remain 50 throughout.</code></pre>
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </div>   
+    <footer class="f_content">
+        <div>
+         <p>Copyright &copy; <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> CodingFish Aman Singh Bhogal</p>
+        </div>
+     </footer>
+     <script src="js_file/app.js"></script>
+</body>
+</html>
