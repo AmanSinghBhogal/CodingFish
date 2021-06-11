@@ -1,0 +1,20 @@
+.container{
+    height: 90vh;
+    /* border: 3px solid red; */
+    padding: 5vh 5vw;
+}
+.welcome{
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 1vw;
+    font-family: 'Newsreader', serif;
+    /* font-family: 'Hachi Maru Pop', cursive; */
+}
+
+@media(max-width: 1090px){
+    .welcome
+    {
+        font-size: 3vw !important;
+    }
+
+}

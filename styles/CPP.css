@@ -1,0 +1,32 @@
+.sublist{
+    /* border: 2px solid black; */
+    padding-left: 1.5vw;
+    list-style: upper-roman;
+}
+.subliscont li ul li{
+    font-size: 2vh !important;
+}
+.ol .subliscont li{
+    font-size: 2.5vh;
+    list-style: upper-roman;
+}
+.subliscont li ul{
+    padding-left: 2vw;
+}
+#e ul{
+    padding-left: 2vw;
+}
+@media(max-width: 1090px){
+    .index{
+        padding: 6vw !important;
+    }
+    .sublist{
+        padding-left: 8vw !important;
+    }
+    .subliscont li ul{
+        padding-left: 8vw !important;
+    }
+    #e ul{
+        padding-left: 10vw !important;
+    }
+}
