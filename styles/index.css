@@ -1,7 +1,7 @@
-.container
+/* .container
 {
     height: 90vh;
-}
+} */
 .indexTable
 {
     margin: auto;
@@ -18,10 +18,10 @@
         display: block;
         margin-top: 10vh;
     }
-    .container{
+    /* .container{
         height: auto !important;
         width: 100vw;
-    }
+    } */
     .container td{
         box-sizing: border-box;
     }
