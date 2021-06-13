@@ -5,6 +5,7 @@
     color: black;
 }
 header{
+    min-height: 90px;
     height: 10vh;
     background-color: #0003;
 }
@@ -160,12 +161,14 @@ nav .mainMenu .closeMenu , .icons i {
     nav .siteName{
         width: 10vw;
         height: 10vh;
-        font-size: 20px;
-        padding-left: 31vw;
-        padding-top: 1.3vh
+        font-size: 25px;
+        padding-left: min(115px,32vw);
+        padding-top: min(10px,1.2vh);
     }
     nav .logo img{
+        min-width: 96px;
         width: 15vw;
+        min-height: 88px;
         height: 10vh;
     }
     .icons i {
