@@ -14,29 +14,37 @@
 }
 #hr, #sec, #min{
     position: absolute;
-    left: 49.9%;
-    transform-origin: bottom;
 }
 #hr{
-    height: 12%;
-    top: 37.8%;
-    width: 7px;
-    background-color: black;
+    top: 36.9%;
+    left: 49.22%;
+    transform-origin: center 86%;
     z-index: 2;
-    opacity: 0.8;
+}
+#hr img{
+    min-width: 23px;
+    min-height: 25px;
+    width: 1.5vw;
+    height: 12vh;
 }
 #min{
-    height: 16%;
-    top: 33.8%;
-    width: 4px;
-    background-color: blue;
+    top: 31.8%;
+    left: 49.25%;
+    transform-origin: center 90%;
     z-index: 1;
-    opacity: 0.8;
+}
+#min img{
+    min-width: 22px;
+    height: 16vh;
+    width: 1.1vw;
 }
 #sec{
-    height: 18%;
-    top: 31.9%;
-    width: 2.5px;
-    background-color: red;
-    opacity: 0.8;
+    top: 30.8%;
+    left: 49.25%;
+    transform-origin: center 90.1%;
+}
+#sec img{
+    min-width: 22px;
+    width: 1.1vw;
+    height: 17vh;
 }
