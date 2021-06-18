@@ -8,7 +8,7 @@
 .clock{
     height: 50vh;
     aspect-ratio: 1/1;
-    background-image: url('/Clock Project/clockImgs/clock2.png');
+    background-image: url('clockImgs/clock2.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
