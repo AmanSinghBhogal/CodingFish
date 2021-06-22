@@ -1,3 +1,4 @@
+console.log("Hello World");
 setInterval(() => {
     d = new Date();
     h = d.getHours();
